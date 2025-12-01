@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import GlobalStyle, { Container } from './styles'
-import colors from './theme/colors'
+import colors from './themes/colors'
 
 function App() {
   return (
