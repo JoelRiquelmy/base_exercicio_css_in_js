@@ -7,11 +7,23 @@ export const Form = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+
+    & > button {
+      margin-top: 16px;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
 `
 
 export const Input = styled.input`
   padding: 0 16px;
   outline-color: ${(props) => props.theme.primary};
+  font-size: 18px;
+  border: 1px solid ${(props) => props.theme.primary};
 `
 
 export const Button = styled.button`

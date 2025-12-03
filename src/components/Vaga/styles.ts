@@ -12,6 +12,11 @@ export const Card = styled.li`
     background-color: ${(props) => props.theme.primary};
     color: ${(props) => props.theme.secondary};
   }
+
+  &:hover {
+    background-color: ${(props) => props.theme.primary};
+    color: ${(props) => props.theme.secondary};
+  }
 `
 
 export const CardTitle = styled.h3`

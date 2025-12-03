@@ -29,4 +29,5 @@ export const FormContainer = styled.div`
 export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  padding-left: 32px;
 `
