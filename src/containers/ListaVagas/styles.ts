@@ -9,7 +9,10 @@ export const CardList = styled.ul`
   }
 
   @media (max-width: 768px) {
-  .vagas {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 480px) {
     grid-template-columns: 1fr;
   }
 `
